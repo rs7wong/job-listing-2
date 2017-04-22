@@ -18,8 +18,7 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
- @import "variables";
-
+ @import "_variables";
 
  // Superhero 3.3.7
  // Bootswatch
@@ -38,7 +37,7 @@
    &-default {
 
      .badge {
-       background-color: #004C66;
+       background-color: #fff;
        color: $navbar-default-bg;
      }
    }
@@ -46,7 +45,7 @@
    &-inverse {
 
      .badge {
-       background-color: #004C66;
+       background-color: #fff;
        color: $navbar-inverse-bg;
      }
    }
