@@ -15,6 +15,17 @@
  *= require font-awesome
  */
 
+ // First import cerulean variables
+
+  
+
+  // Bootstrap body padding for fixed navbar
+  body { padding-top: 60px; }
+
+  // And finally bootswatch style itself
+  @import "bootswatch/cerulean/bootswatch";
+
+
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
